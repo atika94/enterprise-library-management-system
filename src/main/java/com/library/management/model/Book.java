@@ -11,6 +11,7 @@ public class Book {
     private String language;
     private int numberOfPages;
 
+    //getter
     public String getIsbn(){
         return this.isbn;
     }
@@ -41,7 +42,7 @@ public class Book {
 
 
 
-
+    //setter  
     public void setTitle(String title){
         this.title = title;
     }
@@ -67,6 +68,7 @@ public class Book {
         this.authors = authors;
     }
 
+    //constructor
     public Book(
         String isbn,
         String title,
@@ -75,7 +77,7 @@ public class Book {
         int publicationYear,
         String category,
         String language
-) {
+    ) {
 
     if (isbn == null || isbn.isBlank()) {
         throw new IllegalArgumentException("ISBN cannot be empty");
