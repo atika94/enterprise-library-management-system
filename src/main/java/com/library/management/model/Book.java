@@ -1,4 +1,5 @@
-package com.library.management.model;
+package main.java.com.library.management.model;
+
 import java.util.List;
 public class Book {
     private String isbn;
