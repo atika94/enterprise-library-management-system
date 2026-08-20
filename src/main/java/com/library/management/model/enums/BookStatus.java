@@ -1,4 +1,4 @@
-package com.library.management.model.enums;
+package main.java.com.library.management.model.enums;
 
 public enum BookStatus {
     AVAILABLE,

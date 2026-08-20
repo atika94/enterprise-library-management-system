@@ -1,4 +1,4 @@
-package com.library.management.model;
+package main.java.com.library.management.model;
 
 import com.library.management.model.enums.UserRole;
 
